@@ -1,12 +1,11 @@
 import { NgModule } from '@angular/core';
-import { BaypayComponent } from './baypay.component';
-
-
+import { ButtonComponent } from './button/button.component';
+import { CardComponent } from './card/card.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
-  declarations: [BaypayComponent],
-  imports: [
-  ],
-  exports: [BaypayComponent]
+  declarations: [ButtonComponent, CardComponent],
+  imports: [CommonModule],
+  exports: [ButtonComponent, CardComponent],
 })
-export class BaypayModule { }
+export class BaypayModule {}

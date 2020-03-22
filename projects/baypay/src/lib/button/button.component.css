@@ -1,0 +1,35 @@
+.btn {
+    min-width: 200px;
+    height: 54px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: unset;
+}
+.btn.black {
+    background-color: #000;
+    color: #fff;
+}
+.btn.white {
+    background-color: #fff;
+    color: #3b3b3b;
+}
+.btn.grey {
+    background-color: #d7d7d7;
+    color: #000;
+}
+.btn.flat {
+    box-shadow: none;
+}
+.btn:hover {
+    cursor: pointer;
+}
