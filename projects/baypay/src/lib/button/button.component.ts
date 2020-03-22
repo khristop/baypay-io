@@ -11,7 +11,5 @@ export class ButtonComponent {
 
   @Input() defaultClass = 'black';
 
-  constructor() {}
-
   onBtnClick() {}
 }
